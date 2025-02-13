@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,7 +8,7 @@
 <body>
     <div class="container">
 <div class="calculator">
-    <div class="title">Number Addition</div>
+    <div class="title">Calculator</div>
 
     <div class="input">
     <input type="text" id="num1" placeholder="Enter first number"> 
@@ -24,9 +23,16 @@
     </div>
 
     <div class = button>
-    <button onclick="addnumbers()">Add</button>
-    <button onclick="Clearbtn()">Clear</button>
-    <button class="exit" onclick="Exitbtn()">Exit</button>
+    <button onclick="addnumbers()">+</button>
+    <button onclick="subs()">-</button>
+    <button onclick="multiply()">×</button>
+    <button onclick="division()">÷</button>
+    </div>
+    <br>
+
+    <div>
+        <button class="clear" onclick="Clearbtn()">Clear</button>
+        <button class="exit" onclick="Exitbtn()">Exit</button>
     </div>
 
 <div>
